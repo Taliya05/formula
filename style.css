@@ -1,0 +1,139 @@
+*{
+  padding: 0;
+  border: 0;
+  bottom: 0;
+}
+*,*:before,*:after{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
+
+/* ====================================================================== */
+
+
+body {
+  
+  font-size: 20px;
+  
+  background-color: rgb(228, 228, 228);
+
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 5%;
+  left: 0;
+  display: flex;
+  align-items: flex-start;
+  align-content: center;
+  justify-content: center;
+  
+  
+}
+.block {
+  width: 30%;
+    /* margin-top: -80px; */
+
+
+  /* overflow: auto; */
+}
+
+ 
+.formula {
+align-items: center;
+text-align: center;
+padding: 5%;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px ;
+  
+}
+.formaabc {
+  margin-bottom: 10px;
+  
+
+}
+label {
+  margin: 5px;
+}
+
+input {
+  width: 50px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.isRoots {
+  align-items: center;
+  text-align: center;
+  
+  background-color: rgb(73, 192, 73);
+  padding: 3%;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px ;
+  display: contents;
+
+}
+.formaRoots {
+  width: 130px;
+  height: 20px;
+}
+
+.isnotRoots {
+  align-items: center;
+  text-align: center;
+  
+  background-color: rgb(230, 91, 91);
+  padding: 3%;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px ;
+
+  
+}
+
+.mainblue {
+  background-color: rgb(83, 119, 240);
+}
+
+.allformula {
+align-items: center;
+text-align: center;
+padding-bottom: 3%;
+}
+.bottomend {
+  background-color: rgb(83, 119, 240);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px ;
+  
+}
+
+.bottomend:after {
+  content: '\200b';
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 10px;
+}
