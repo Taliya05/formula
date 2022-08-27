@@ -35,5 +35,8 @@ btn_calc.onclick = function calc() {
 
     document.getElementById("x1").value = x1;
     document.getElementById("x2").value = x2;
+
+
+    
   }
 };
